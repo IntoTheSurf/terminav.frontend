@@ -1,6 +1,12 @@
 .landing-page {
   &-background {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  img {
+  &-logotype {
+    margin-top: 81px;
+    margin-bottom: 400px;
   }
 }
