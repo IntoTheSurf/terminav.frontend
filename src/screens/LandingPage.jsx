@@ -7,9 +7,9 @@ import { ButtonElement } from '../components/ButtonElement';
 
 function LandingPage() {
   return (
-    <div style = {{backgroundImage: `url(${background})`}}>
-        <img src = {logotype} alt = "" />
-        <ButtonElement text = "Get started"/>
+    <div style = {{backgroundImage: `url(${background})`}} className = "landing-page-background">
+        <img src = {logotype} alt = "" className = "landing-page-logotype"/>
+        <ButtonElement text = "Get started" className={"button-main"}/>
     </div>
   )
 }
