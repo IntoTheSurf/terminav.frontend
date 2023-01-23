@@ -1,15 +1,14 @@
 import { PropTypes } from 'prop-types';
 import { Button } from 'react-bootstrap';
-import "../assets/styles/_buttons.scss";
 
 function ButtonElement({
   text, className, variant, isFullWidth, size, ...rest
 }) {
-  const classes = `${className}`;
+  const classes = `btn ${className}`;
   return (
-    <button className={classes} variant={variant} size={size} block={isFullWidth.toString()} {...rest}>
+    <Button className={classes} variant={variant} size={size} block={isFullWidth.toString()} {...rest}>
       {text || null}
-    </button>
+    </Button>
   );
 }
 
