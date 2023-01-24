@@ -3,6 +3,7 @@
 }
 .mainmain {
     padding: 25px;
+    box-sizing: border-box;
 }
 
 input {
