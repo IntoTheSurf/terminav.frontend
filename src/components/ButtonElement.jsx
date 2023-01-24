@@ -1,5 +1,6 @@
 import { PropTypes } from 'prop-types';
 import { Button } from 'react-bootstrap';
+import '../assets/styles/_buttons.css';
 
 function ButtonElement({
   text, className, variant, isFullWidth, size, ...rest
