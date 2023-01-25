@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { View } from 'react-native';
-import { LandingPage } from './src/screens';
+import { RegisterScreen, LandingPage } from './src/screens';
 
 export default function App() {
   return (
     <View>
-      <LandingPage />
+      <RegisterScreen />
       {/*<StatusBar style="auto" />*/}
     </View>
   );
