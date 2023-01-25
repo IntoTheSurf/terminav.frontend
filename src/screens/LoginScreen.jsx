@@ -5,13 +5,13 @@ import outlok from '../assets/images/outlook.png';
 import fejs from '../assets/images/fejs.png';
 import '../assets/styles/_login.css';
 
-function LoginScreen( navigation ) {
+function LoginScreen( ) {
   return (<>
     <div className='mainmain'>
       <img src={loginlogo} alt="loginlogo" className='loginlogo'/>
       <div>
         <h1>Log in</h1>
-        <h6>Don't have an account? <a onClick={() => navigation.push("RegisterScreen")} style={{color:"orange"}}>Create account</a></h6>
+        <h6>Don't have an account? <a style={{color:"orange"}}>Create account</a></h6>
       </div>
 
       <div>

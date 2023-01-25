@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.css-view-175oi2r{
+    height: 100%;
+}
+.wrapper{
+    background: #EAEAEA;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    background-image: url(../images/mainscreen/background.png);
+}
+.menuMain{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border: 1px solid #BCBCBC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+    background: white;
+}
+.floatingMain {
+    padding: 10px;
+}
+.mapBorder{
+    width: 70px;
+    height: 70px;
+    background: #F17F3D;
+    border: 1px solid #BCBCBC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-12px);
+}
+.map{
+    transform: translateY(-4px);
+}
+.logomain{
+    height: 50px;
+    position: relative;
+}
+.backbutton {
+   position: absolute;
+   left: 10px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.chooseFlightNum {
+    position: relative;
+}
+.inputFlightNum{
+    position: absolute;
+    left: 103px;
+    top: 10px;
+    width: 144px;
+    height: 36px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+.departures, .arrivals{
+    width: 49%;
+}
+.departures{
+    margin-right: 2%;
+}
+.choosenAirportText {
+    font-family: 'Arial Rounded MT Bold';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+.terminalselect{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.terminalselect::after {
+    text-align: center;
+    background: #FFF4ED;
+    border: 1px solid #F68D51;
+    border-radius: 0px 0px 5px 5px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.width100{
+    width: 100%;
+}
+.loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.75;
+    display: block;
+}
+.loadergif{
+    width: 90%;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.loaderof{
+    display: none;
+}
